@@ -215,6 +215,10 @@ open class TagView: UIButton {
             removeButton.frame.origin.y = 0
         }
     }
+    
+    func closeButton() -> CloseButton {
+        return removeButton
+    }
 }
 
 /// Swift < 4.2 support
